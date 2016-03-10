@@ -68,10 +68,10 @@ Java Code
 =========
 
 ``` java
-	public Hello{
-		public void sayHello(){
-			System.out.println("Hello Word!");
-		}
+public Hello{
+	public void sayHello(){
+		System.out.println("Hello Word!");
+	}
 }
 
 ```
