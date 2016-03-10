@@ -61,7 +61,7 @@ The following open sources have been used in this project.
 * [jQuery](https://jquery.com/)
 * [highlight.js](https://highlightjs.org/)
 
-Forked From
+Source From
 -----------
 
 [https://github.com/kkninjae/book](https://github.com/kkninjae/book)
