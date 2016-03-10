@@ -13,7 +13,7 @@ body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 blockquote {
@@ -48,7 +48,7 @@ code {
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 h2,
@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 img {
@@ -91,6 +91,7 @@ img {
 .link-1 {
   padding: 2px;
   color: #6599ff;
+  font-size: 20px;
   text-decoration: none;
   -webkit-transition: background-color .7s;
   -moz-transition: background-color .7s;
@@ -264,8 +265,8 @@ img {
 
 @media (min-width: 600px) {
   .post-archive {
-    margin-left: 10%;
-    width: 80%;
+    margin-left: 50%;
+    width: 85%;
   }
 }
 
@@ -276,7 +277,7 @@ img {
     left: 0;
     margin-left: 0;
     background-color: #fff;
-    width: 340px;
+    width: 400px;
   }
 }
 
@@ -286,6 +287,7 @@ img {
 
 .post-archive-iterms {
   background-color: #fff;
+  font-size: 18px;
 }
 
 .post-archive-iterm {
@@ -293,7 +295,7 @@ img {
   position: relative;
   margin: 0 auto;
   padding: 12px 0;
-  width: 300px;
+  width: 400px;
   line-height: 20px;
   text-decoration: none;
   color: #000;
@@ -303,7 +305,7 @@ img {
   content: "";
   position: absolute;
   top: 32px;
-  left: 96.4px;
+  left: 134.37px;
   width: 3px;
   height: 100%;
   background-color: #b2ccff;
@@ -313,14 +315,15 @@ img {
 .post-archive-date {
   display: inline-block;
   float: left;
-  width: 90px;
+  text-align: center;
+  width: 128px;
 }
 
 .post-archive-title {
   display: inline-block;
   position: relative;
   padding-left: 20px;
-  width: 210px;
+  width: 220px;
 }
 
 .post-archive-title:before {
@@ -349,14 +352,16 @@ img {
 
 /* post */
 .post-header {
+  font-size: 20px;
   padding: 14px 39px 14px 19px;
   border-bottom: 1px solid #e6e6e6;
 }
 
 .post-header h1 {
+  font-size: 25px;
   margin: 0;
-  padding-bottom: 5px;
-  line-height: 20px;
+  padding-bottom: 8px;
+  line-height: 25px;
 }
 
 .post-content {
@@ -409,7 +414,7 @@ img {
     margin-right: auto;
     margin-left: auto;
     width: 80%;
-    min-width: 300px;
+    min-width: 400px;
     background-color: #fff;
   }
 
@@ -439,7 +444,7 @@ img {
   .post-content,
   .post-nav,
   .post-comment {
-    max-width: 700px;
+    max-width: 1000px;
   }
 }
 
