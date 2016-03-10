@@ -44,3 +44,5 @@ End.
 If you like it, [star](https://github.com/Keshaun/book) it :).
 
 If you have a problem, [github issue is ready](https://github.com/Keshaun/book/issues).
+
+This theme source is provided by [kkninjae github](https://github.com/kkninjae/book/)
