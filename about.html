@@ -4,24 +4,29 @@ title: About Me
 permalink: /about/
 ---
 <div class="about-wrapper">
-
-  {% for p in site.about %}
-  {% assign content = p.paragraph %}
-  {% for link in p.links %}
-  {% if link.external %}
-  {% assign target = '_blank' %}
-  {% else %}
-  {% assign target = '_self' %}
-  {% endif %}
-  {% assign a = '<a class="link-1" href="' | append: link.url | append: '" target="' | append: target | append: '">' | append: link.name | append: '</a>' %}
-  {% assign content = content | replace_first: '?link?', a %}
-  {% endfor %}
-  {% if p.text_align %}
-  {% assign alignment = p.text_align %}
-  {% else %}
-  {% assign alignment = 'left' %}
-  {% endif %}
-  <p style="text-align: {{ alignment }}">{{ content }}</p>
-  {% endfor%}
-
+  <h2 class="about-profile">个人简介</h2>
+  <div class="profile_image_div">
+    <img src="/book/assets/img/profile_img.png">
+  </div>
+  <p>Keshaun</p>
+  <p>爱生活，爱旅游，爱电影，爱运动，爱编程。</p>
+  <p>低调做人，高调做事。韬光养晦，厚积薄发。Keep Moving Forward！</p>
+  <div class="contact-me"><h2>与我联系</h2></div>
+  <div class="icon-contact">
+    <div class="logo_icon">
+      <a href="http://weibo.com/u/2945751763"><img src="/assets/img/weibo-logo.png"></a>
+    </div>
+    <div class="logo_icon">
+      <a href="https://www.facebook.com/profile.php?id=100010551300108"><img src="/assets/img/facebook-logo-button.png"></a>
+    </div>
+    <div class="logo_icon">
+      <a href="https://twitter.com/Kushshaun_Zhsng"><img src="/assets/img/twitter.png"></a>
+    </div>
+    <div class="logo_icon">
+      <a href="https://www.facebook.com/profile.php?id=100010551300108"><img src="/assets/img/google-plus-logo-button.png"></a>
+    </div>
+    <div class="logo_icon">
+      <a href="#"><img src="/assets/img/qq-logo.png"></a>
+    </div>   
+  </div>
 </div>
