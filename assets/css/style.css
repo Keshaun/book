@@ -511,8 +511,8 @@ img {
 .about-wrapper {
   margin-right: auto;
   margin-left: auto;
-  padding-top: 24px;
   width: 85%;
+  height: 50%;
 }
 
 @media (min-width: 600px) {
@@ -528,6 +528,49 @@ img {
     top: 40%;
     right: 0;
     left: 0;
-    padding-top: 0;
+    padding-top: 20px;
   }
+}
+
+.profile_image_div{
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+
+.profile_image_div img{
+  border-radius: 50%;
+}
+
+.about-wrapper .about-profile{
+  font-size: 22px;
+  width: 100%;
+  background: #FBFBFB;
+  text-align: center;
+}
+
+.about-wrapper p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contact-me{
+  width: 100%;
+  height: auto;
+  background: #FBFBFB;
+  text-align: center;
+}
+
+.icon-contact {
+  width: 100%;
+  min-height: 70px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.logo_icon{
+  width: auto;
+  height: auto;
+  padding: 10px;
+  display: inline-block;
 }
