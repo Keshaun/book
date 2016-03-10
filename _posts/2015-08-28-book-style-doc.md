@@ -63,3 +63,24 @@ Nam an perpetua senserit temporibus. Sea velit iisque veritus ea. Pri ut assum p
         main()
 
 Est inani prodesset ex. Eu reque perfecto consulatu vix, omnes concludaturque eum an. Detraxit consequuntur per eu, virtute atomorum voluptatibus mei ei. Tamquam vituperatoribus et vis, quo in copiosae apeirian.
+
+Java Code
+=========
+
+``` java
+	public Hello{
+		public void sayHello(){
+			System.out.println("Hello Word!");
+		}
+}
+
+```
+
+Table
+=====
+
+| tables	| are    | cool  |
+| --------- | ------ | ----- |
+| 1      	| 2      | 3     |
+| 3			| 3	     | cool  |
+| 3			| are    | cool  |
