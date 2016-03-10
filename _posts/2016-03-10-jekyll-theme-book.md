@@ -6,14 +6,15 @@ tags: english
 category: blog
 ---
 
-Simple is better, but many themes are over designed. So, [Book](https://github.com/kkninjae/book) is built.
+Simple is better, but many themes are over designed. So, [Book](https://github.com/Keshaun/book) is built.
 
 Get started
 -----------
 
-1.  fork the [repo](https://github.com/kkninjae/book/fork).
-2.  clone `git clone https://github.com/username/book`
-3.  run `jekyll serve -w`
+1.  install [jekyll](https://jekyllrb.com)
+2.  fork the [repo](https://github.com/Keshaun/book/fork).
+3.  clone `git clone https://github.com/username/book`
+4.  run `jekyll serve -w`
 
 [http://localhost:4000](http://localhost:4000) should be ready.
 
@@ -40,6 +41,6 @@ Please do not delete the first two lines of style.css file.
 End.
 ----
 
-If you like it, [star](https://github.com/kkninjae/book) it :).
+If you like it, [star](https://github.com/Keshaun/book) it :).
 
-If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
+If you have a problem, [github issue is ready](https://github.com/Keshaun/book/issues).
